@@ -74,7 +74,7 @@ var/loaded_admins = FALSE
 	load_admin_ranks()
 
 	//load text from file
-	var/list/Lines = file2list("config/admins.txt")
+	var/list/Lines = file2list("code/admins.txt")
 
 	//process each line seperately
 	for(var/line in Lines)
